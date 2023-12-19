@@ -1,0 +1,5 @@
+Binary Search -> 
+Sorted Data 
+mid pe dekho 
+chhota hai to left me dekho
+ 

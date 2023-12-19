@@ -1,0 +1,52 @@
+Queue follows FIFO ordering
+
+Front and Rear are present.
+
+! Insertion is from Rear
+! Removal is from Front
+
+**What is a Queue?**
+- A Queue is a linear data structure that follows the FIFO (First-In-First-Out) principle.
+- It's similar to a real-world queue or line, where the first person to join is the first one to leave.
+
+**Main Operations on a Queue:**
+1. **Enqueue:** Adding an element to the end of the queue.
+2. **Dequeue:** Removing an element from the front of the queue.
+3. **Peek (or Front):** Viewing the element at the front without removing it.
+4. **isEmpty:** Checking if the queue is empty.
+5. **Size:** Finding the number of elements in the queue.
+
+**Queue Implementations:**
+1. **Array-based Queue:** Using an array to implement a queue.
+   - Fast operations but limited in size.
+
+2. **Linked List-based Queue:** Using a linked list to implement a queue.
+   - Dynamic size but slightly slower than an array for random access.
+
+**Applications of Queues:**
+1. **Breadth-First Search (BFS):** Used to explore nodes level by level in a tree or graph.
+2. **Task Scheduling:** Managing tasks in a multi-tasking environment.
+3. **Print Queue:** Managing documents in a printer queue.
+4. **Order Processing:** Handling orders in e-commerce systems.
+5. **Call Center Systems:** Managing incoming calls.
+
+**Complexity Analysis:**
+- Enqueue and Dequeue operations in a basic queue are typically O(1) time complexity.
+- Peek, isEmpty, and Size operations are also O(1).
+
+**Circular Queue:**
+- A variation of the queue where the front and rear "wrap around" to the beginning when they reach the end.
+- Helps in efficient utilization of space.
+
+**Priority Queue:**
+- A type of queue where each element has an associated priority, and elements with higher priorities are dequeued before lower-priority elements.
+- Often implemented using heaps.
+
+**Double-ended Queue (Deque):**
+- A queue that supports adding and removing elements from both ends.
+- Useful in algorithms like the sliding window technique.
+
+**Queue vs. Stack:**
+- Queue follows FIFO, while a Stack follows LIFO (Last-In-First-Out).
+- Queues are used in BFS, while Stacks are used in DFS (Depth-First Search).
+

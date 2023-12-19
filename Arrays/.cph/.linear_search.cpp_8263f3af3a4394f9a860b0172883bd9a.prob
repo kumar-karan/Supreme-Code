@@ -1,0 +1,1 @@
+{"name":"Local: linear_search","url":"/Users/karankumar/Supreme/Sup/Arrays/linear_search.cpp","tests":[{"id":1676540999449,"input":"3 3 5\n1\n2\n3\n4\n5\n6\n7\n8\n9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/karankumar/Supreme/Sup/Arrays/linear_search.cpp","group":"local","local":true}

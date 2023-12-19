@@ -1,0 +1,59 @@
+DP base building 
+
+Pre requisite -> Recursion 
+
+Dynamic Programming 
+
+Those who forget the past are condemn to repeat it.
+
+Jo ek baar calculate kar chuke ho usko dobara krne ki need ni hai 
+
+Top down approach -> Recursion ka use krrhe hote hai + memoisation 
+Bottom Up approach -> Tabulation method -> iterative way me krrhe hote hai 
+Space optimization -> O(1)
+
+
+
+When to APPLY DP?
+overlapping subproblems 
+Optimal Substructure 
+
+
+
+Fibinacci Series 
+0 1 1 2 3 4 8 13 21 
+
+Recursive code 
+
+int fib(int n)
+{
+    if(n==1 | n == 0)
+        return n;
+
+    int ans = fib(n-1) + fib(n-2);
+
+    return ans;
+}
+
+
+Adding memoisation:
+
+1. Creating DP array
+    vector <int> dp(n+1,-1)
+
+2. Ans store in DP 
+
+3. Base case ke baad ek condition likho 
+
+    Check if ans already exist 
+
+
+int fib(int n)
+{
+    if(n==1 | n == 0)
+        return n;
+
+    int ans = fib(n-1) + fib(n-2);
+
+    return ans;
+}

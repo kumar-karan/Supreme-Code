@@ -1,0 +1,10 @@
+Stacks 
+Data Structure 
+Last IN, First OUT
+items and data are stored in LIFO order
+Insertion = push
+Delete = pop
+peek = top most element
+s.empty = checks if stack is empty 
+s.szie = check size of stack
+

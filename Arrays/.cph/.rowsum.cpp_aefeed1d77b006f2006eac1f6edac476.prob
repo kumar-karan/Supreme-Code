@@ -1,0 +1,1 @@
+{"name":"Local: rowsum","url":"/Users/karankumar/Supreme/Sup/Arrays/rowsum.cpp","tests":[{"id":1676540217323,"input":"3 3\n1\n2\n3\n4\n5\n6\n7\n8\n9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/karankumar/Supreme/Sup/Arrays/rowsum.cpp","group":"local","local":true}
